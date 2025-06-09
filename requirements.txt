@@ -1,0 +1,36 @@
+# Core libraries used in RAG implementation
+
+langchain                 # Framework for building LLM-powered applications
+faiss-cpu                 # Vector store for fast similarity search (CPU version)
+pymupdf                   # For reading and parsing PDF documents
+transformers              # HuggingFace Transformers for embeddings and LLMs
+sentence-transformers     # Easy-to-use wrapper for sentence-level embeddings
+
+# Optional (used if you're using OpenAI's models)
+openai                    # To access OpenAI's GPT models via API
+
+# Model Note:
+# Zephyr model is used as the LLM in this project for generating natural responses.
+
+
+Hardware and Software Requirements for RAG-based Project
+=========================================================
+
+Software Requirements:
+-----------------------
+- Operating System: Windows 10/11, macOS, or Linux (Ubuntu recommended)
+- Python: Version 3.8 or later
+- Jupyter Notebook: Recommended for interactive development
+
+Hardware Requirements:
+------------------------
+Minimum:
+- RAM: 8 GB
+- Processor: Dual-core CPU
+- Storage: 2–4 GB of free space
+
+Recommended:
+- RAM: 16 GB or more
+- Processor: Quad-core CPU or better
+- Storage: SSD with 10+ GB free space
+- GPU (Optional): NVIDIA GPU for faster inference (if needed)
